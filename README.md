@@ -10,9 +10,13 @@
 
 ---
 
-Пример испоьзования:
+Пример использования:
 ```
 resolve_and_format('https://hands.ru/', ['company/about', 'contact-us/'])
+```
+В случае, если index страница содержит контакты:
+```
+resolve_and_format('https://repetitors.info/', [''])
 ```
 
 ---
